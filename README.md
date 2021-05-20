@@ -38,6 +38,7 @@
 ## 统计结果
 THUCNews统计结果：https://drive.google.com/drive/folders/1zq4-bTKj7H8q1wuJV8XfJV1rqvrGOXo8?usp=sharing
 ### 须知
-- 文件名中带有full的，表示的是原语料库的统计信息。
+- 文件名中带有“full”的，表示的是原语料库的统计信息。
 - 对于trigram及以上的ngrams，我还做了点分类工作，把频率大于10的另外统计，并且在文件上标明“>=10"。
 - “words.txt”是用结巴分词统计出来的结果。
+- 由于语料库是新闻体裁，从新浪微博上抓取的，所以带有一定的“地方特色”，比如高频次的表时间的ngram结构（比如：年D月D日）和“新浪体育讯”等ngram。
